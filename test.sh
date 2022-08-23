@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python inference.py --checkpoint_path="./checkpoints/wav2lip.pth" --segmentation_path="./checkpoints/face_segmentation.pth" --face="./inputs/sjhnim.mp4" --audio="./input_audio/cto_final.wav" --outfile="./output/sjhnim.mp4"

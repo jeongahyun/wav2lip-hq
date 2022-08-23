@@ -1,0 +1,1 @@
+python inference.py --checkpoint_path "checkpoints/wav2lip.pth" --segmentation_path "checkpoints/face_segmentation.pth" --face ./inputs/result_change_speed_50per.mov --audio ./input_audio/HR.wav --outfile output/220617_hr.mov
