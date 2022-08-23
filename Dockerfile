@@ -1,0 +1,1 @@
+FROM dica38/wav2lip-hq:latest
